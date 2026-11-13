@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul style="display: flex; padding: 20px; gap: 30px; background-color: crimson; color: white; list-style: none;"  >
+        <a href="{% url 'home' %}" style="text-decoration: none; color: white;"><li>Home</li></a>
+
+        <!-- <a href="{% url 'register' %}" style="text-decoration: none; color: white;">  <li>Register</li></a>
+
+        <a href="" style="text-decoration: none; color: white;"><li>Login</li></a> -->
+
+        <a href="{% url 'logout' %}"><li>logout</li></a>
+      
+        
+    </ul>
+    
+</body>
+</html>
